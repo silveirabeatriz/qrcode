@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./challenge01.png)
+<img src="screenshot.png">
 
 ### Links
 
@@ -34,5 +34,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Author
 
-- LinkedIn: [Beatriz Silveira]([https://your-solution-url.com](https://www.linkedin.com/in/silveira-beatriz/)https://www.linkedin.com/in/silveira-beatriz/)
+- LinkedIn: [Beatriz Silveira]([https://www.linkedin.com/in/silveira-beatriz/])
 
