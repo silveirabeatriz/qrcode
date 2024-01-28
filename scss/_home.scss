@@ -1,11 +1,38 @@
 body {
     background-color: $light-gray;
-    .card {
-        background-color: $white;
-        width: 26.5rem;
-        height: 43rem;
-
-    }
-
+    
 }
 
+.container {
+    background-color: $light-gray;
+    @include flex(row, center, center);
+    margin-top: 15rem;
+
+    .card {
+        background-color: $white;
+        @include flex(column, center, flex-start);
+        width: 26.5rem;
+        height: 43rem;
+        border-radius: 5%;
+        .qrcode {
+            margin: 1.5rem 1.5rem 0 1.5rem;
+            img {
+                border-radius: 5%;
+            }
+        }
+        .text {
+            text-align: center;
+            justify-content: space-between;
+            padding: 20px 20px;
+            h1 {
+                color: $dark;
+                margin-bottom: 1.5rem;
+                font-size: 19px;
+            }
+            span {
+                color: $grayish;
+                font-size: 1.4rem;
+            }
+        }
+}
+}
